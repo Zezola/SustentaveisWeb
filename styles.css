@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&display=swap');
+
+/* ---------- NAVBAR ------- */
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #2C4251;
+}
+
+.logo {
+    cursor: pointer;
+    color: #2C4251;
+    background: #B2EDC5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: #FCF8F6 ;
+}
+
+.nav-links li a:hover{
+    color:  #B2EDC5;
+}
+
+/* ------------ FOOTER ------------ */
+
+footer {
+    width: 100%;
+    background-color: #2C4251;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-right: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+
+ 
+/* --------- ABOUT -------------- */
+.about {
+    display: flex;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2EDC5;
+    color: #2C4251;
+}
+
+.info p {
+    margin-left: 5px;
+}
+/* --------- CARDS --------- */
+.clients {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #C1FFF2;
+}
+
+.card {
+    background: white;
+    color: #2C4251;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.client-img {
+    height: 70%;
+    margin: 20px;
+}
+
+.client-img img {
+    width: 100%;
+    max-height: 150px;
+    max-width: 400px;
+    border-radius: 80px;
+}
+
+.client-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* --------- GALERIA --------- */
+.gallery-highlight {
+    width: 80%;
+    height: 50%;
+}
+
+.houses {
+    display: flex;
+    height: 100vh;
+}
+
+.houses-description {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2C4251;
+    background-color: #B2EDC5;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.houses-description p {
+    font-size: 20px;
+}
+
+.gallery {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-preview {
+    display: flex;
+    width: 80%;
+    border: 2px solid black;
+}
+
+.gallery-preview img {
+    height: 120px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+img.active {
+    opacity: 1;
+}
+
+/*---------- CONTACT -----------*/
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-header {
+    display: flex;
+    color: #2C4251;
+    font-size: 40px;
+    justify-content: center;
+    height: 50px;
+}
+
+.team-member {
+    width: 80vw;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #B2EDC5;
+    height: 100px;
+    box-shadow: 2px;
+}
+
