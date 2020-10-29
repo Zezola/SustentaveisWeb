@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Sustentaveis</title>
+    <title>Login</title>
 </head>
 <body>
     <header>
@@ -14,9 +14,30 @@
                 <li><a href="about.html">SOBRE</a></li>
                 <li><a href="gallery.html">GALERIA</a></li>
                 <li><a href="contact.html">CONTATO</a></li>
+                <li><a href="login.html">LOGIN</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Acesse sua conta</h1>
+        </div>
+        
+        <form class="login-form" id="login-form" method="GET" action="about.html">
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-control">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="form-control-btn">
+                <button type="submit">Logar</button>
+            </div>
+        </form>
+    </div>
 
     <footer>
         <ul class="footer-links">
